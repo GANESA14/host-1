@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APM Explorerz - Explore the World</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" href="insta logo-Photoroom.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="index.html" class="logo"><img src="insta logo-Photoroom.png" height="40px" width="40px"> APM Explorerz</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#videos">Adventures</a>
+            <a href="#testimonials">Followers</a>
+            <a href="#gear">Equips</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <header class="hero" id="home">
+        <div class="bg-effect effect-1"></div>
+        <div class="bg-effect effect-2"></div>
+        <video autoplay loop muted class="background-video" id="myVideo">
+            <source src="https://static.vecteezy.com/system/resources/previews/047/143/972/mp4/driving-a-car-on-countryside-road-at-night-with-adaptive-matrix-headlights-video.mp4" type="video/mp4">
+        </video>
+        <script>
+            var video = document.getElementById("myVideo");
+            video.playbackRate = 0.5;
+        </script>
+        <div class="overlay">
+            <h1 id="channel-name"></h1>
+            <p id="channel-tagline"></p>
+            <a id="subscribe-link" target="_blank" class="subscribe-btn">
+                <i class="fab fa-youtube"></i> Subscribe Now
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="bg-effect effect-1"></div>
+        <div class="container">
+            <h2 class="animate__animated">About Our Journey</h2>
+            <p id="about-text" class="animate__animated"></p>
+            <div id="stats-container" class="stats-container">
+            </div>
+        </div>
+    </section>
+    <section class="videos" id="videos">
+        <div class="bg-effect effect-2"></div>
+        <div class="container">
+            <h2 class="animate__animated">Adventures</h2>
+            <div id="video-container" class="video-container"></div>
+        </div>
+    </section
+    <section class="testimonials" id="testimonials">
+        <div class="bg-effect effect-1"></div>
+        <div class="container">
+            <h2 class="animate__animated">What Followers Say</h2>
+            <div id="testimonial-container" class="testimonial-container">
+            </div>
+        </div>
+    </section>
+<section class="gear" id="gear">
+        <div class="bg-effect effect-2"></div>
+        <div class="container">
+            <h2 class="animate__animated">Equipements</h2>
+            <p>Equipment that makes Ours adventures possible</p>
+            <div id="gear-container" class="gear-container">
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="bg-effect effect-1"></div>
+        <div class="container">
+            <h2 class="animate__animated">Connect With Us</h2>
+            <p>Follow Our adventures on social media</p>
+            <div id="social-links" class="social-icons"></div>
+            <h3 style="margin-top: 50px; margin-bottom: 20px;">Get Adventure Updates</h3>
+            <p>Subscribe to Our Youtube , Instagram & Github for exclusive content and upcoming rides</p>
+            <form id="newsletter-form" class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Your email address" required>
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+            
+            <p class="footer-text">© 2025 APM Explorerz | All rights reserved.   | <br><br>
+                 <a href="https://github.com/GANESA14">Contact Developer </a></p>
+        </div>
+    </footer>
+<br>
+    <script src="main.js"></script>
+</body>
+</html>
