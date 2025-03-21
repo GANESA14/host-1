@@ -2,12 +2,15 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    font-family: 'Poppins', sans-serif;
-    user-select:none;
+    font-family: 'Poppins', sans-serif; user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;   
+    -ms-user-select: none; 
 }
 
 body {
     background-color: #131f2b;
+    user-select:none;
     color: #ffffff;
     overflow-x: hidden;
 }
