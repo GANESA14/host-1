@@ -27,12 +27,12 @@ const channelData = {
         {
             id: "https://www.youtube.com/shorts/hlKet6Y8uTg",
             title: "Rugged Boys ah..🙀",
-            description: "The ultimate bike journey across America's diverse landscapes"
+            description: "Gang oda orey fun thaa..."
         },
         {
             id: "https://www.youtube.com/shorts/4HkkBVreYgg",
             title: "Helmet Ethuku Namakku..😅",
-            description: "Conquering high mountain passes and scenic valleys"
+            description: "Helmet laa , namakku theuvaiyaa"
         },
     ],
     testimonials: [
